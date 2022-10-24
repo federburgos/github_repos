@@ -1,0 +1,62 @@
+#container-files {
+    
+    background-color: rgb(33,33,33);
+    padding: 20px;
+    border-radius: 20px;
+    margin:10px 10px 0 0;
+    
+}
+
+#visual-code {
+    margin-top:10px;
+    
+}
+
+#head{
+    margin-top: 20px;
+    background-color: rgb(33,33,33);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+
+#btn2{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 500px) {
+    
+    #container-files{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #head2{
+        height: 100px;
+    }
+
+    #visual-code{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #imagen{
+        width: 100px;
+    }
+
+    #btn1, #btn2{
+        visibility: hidden
+    }
+
+    #nombres{
+        width: 200px;
+    }
+
+    h5{
+        font-size: 19px;
+    }
+
+}
+  

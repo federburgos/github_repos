@@ -1,0 +1,42 @@
+#lista {
+    margin: auto;
+    background-color: rgb(33,33,33);
+    padding: 20px;
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#link{
+    color: rgb(245,245,245);
+    cursor: pointer
+}
+
+#numeroRepos{
+    color: rgb(172, 172, 172);
+    border-radius: 10px;
+}
+
+.row{
+    margin: 0;
+}
+
+.collection{
+    border: none;
+}
+
+.title{
+    color: rgb(172, 172, 172);
+}
+
+a{
+cursor: pointer
+}
+
+@media (max-width: 500px) {
+    
+    #lista{
+        width: 95%;
+    }
+}
+  
